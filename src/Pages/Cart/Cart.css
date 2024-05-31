@@ -1,0 +1,51 @@
+.cart-wrapper {
+    width: 100%;
+}
+
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cart-text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.billing-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subtotal-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.delivery-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.total-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right-section {
+    padding: 0 40px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    position: sticky;
+    top: 50px;
+}
+
+.pay-btn {
+    width: 200px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}

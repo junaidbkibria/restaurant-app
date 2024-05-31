@@ -1,0 +1,81 @@
+.orders-container {
+    width: 80%;
+    margin: 20px auto;;
+}
+
+.order-wrapper {
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orders-page-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    margin: 0;
+}
+
+.order-name {
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 8px 8px 0 0;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+}
+
+.status-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.order-details {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-action {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgray;
+}
+
+.deliver-btn {
+    width: 48%;
+    height: 44px;
+    background-color: #B0EBB4;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cancel-btn {
+    width: 48%;
+    height: 44px;
+    background-color: #E97777;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-row-order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
